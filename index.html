@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ordered List -->
+    <ol>
+        <li>i</li>
+        <li>ii</li>
+        <li>iii</li>
+        <li>iv</li>
+    </ol>
+
+    <!-- An External Image -->
+    <img src="https://images.pexels.com/photos/30978791/pexels-photo-30978791/free-photo-of-aerial-view-of-urban-sprawl-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Picture">
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+                <td>Abdul</td>
+                <td>Park lane road</td>
+                <td>09034839287</td>
+                <td>abdul@gmail.com</td>
+           </tr> 
+           <tr>
+                <td>Alex</td>
+                <td>Dade crescent</td>
+                <td>08134728332</td>
+                <td>alex300@gmail.com</td>
+           </tr>
+           <tr>
+                <td>Faith</td>
+                <td>Riverside estate</td>
+                <td>09026353865</td>
+                <td>faith@gmail.com</td>
+           </tr>
+           <tr>
+                <td>Rose</td>
+                <td>Northside estate</td>
+                <td>09047635328</td>
+                <td>rose@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Eastside estate</td>
+                <td>09024589538</td>
+                <td>mary@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- A form with input validation -->
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter your name" required> <br>
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter your email" required> <br>
+        <label for="">Password</label>
+        <input type="text" placeholder="Enter your password" required> <br>
+        <label for="">Date</label>
+        <input type="date" required> <br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required> <br>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required> <br>
+        <label for="female">Female</label>
+        <label for="country">Country:</label>
+             <select id="country" name="country" required>
+                 <option value="">Select your country</option>
+                 <option value="usa">United States</option>
+                 <option value="uk">United Kingdom</option>
+                 <option value="canada">Canada</option>
+                 <option value="india">India</option>
+             </select> <br>
+        <label>Interests:</label> <br>
+        <input type="checkbox" id="coding" name="interests" value="coding"> 
+        <label for="coding">Coding</label> <br>
+        <input type="checkbox" id="reading" name="interests" value="reading"> 
+        <label for="reading">Reading</label> <br>
+        <input type="checkbox" id="sports" name="interests" value="sports"> 
+        <label for="sports">Sports</label> <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
